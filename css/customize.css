@@ -118,15 +118,10 @@ a:hover {
   margin-left: 10px;
   color: red; }
 
-.en_desc {
+.desc {
   padding-bottom: -100px;
   color: var(--nord4);
   margin-bottom: 0px;
-}
-.ar_desc {
-  margin-top: 0px;
-  padding-top: -30px;
-  color: var(--nord6);
 }
 
 .tag {

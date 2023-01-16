@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 tree = ET.parse("sites.xml")
 root = tree.getroot()
 with open('index.html', 'w') as file:
-# tag = 0   tag_text = 1  name = 2   link = 3  image_name = 4  powered_by = 5  description_en = 6  description_ar = 7
+# tag = 0   tag_text = 1  name = 2   link = 3  image_name = 4  powered_by = 5  description = 6
     head = f"""
 <!DOCTYPE html>
 
@@ -74,11 +74,8 @@ with open('index.html', 'w') as file:
                   </div>
                 </div>
                 <div class="content">
-                  <p class="subtitle en_desc">
+                  <p class="subtitle desc">
                       {child[6].text}
-                  </p>
-                  <p class="subtitle ar_desc" align="right">
-                      {child[7].text}
                   </p>
                 </div>
               </a>
