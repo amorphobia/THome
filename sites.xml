@@ -1,0 +1,149 @@
+<!-- To add new card use this template:
+    *for <tag> use: 
+        - "KB" Stands for: Knowledge Base and Wikis
+        - "SaM" Stands for: Social networks and media 
+        - "WaB" Stands for: Websites and Blogs
+        - "SaI" Stands for: Search and Indexing
+        - "admin" Stands for: Admin tools and such
+
+    <item name = "">
+        <tag></tag>
+        <tag_text></tag_text>
+        <name></name>
+        <link></link>
+        <image_name></image_name>
+        <powered_by></powered_by>
+        <description></description>
+    </item>
+-->
+
+<site_items>
+    <item name = "The Wiki">
+        <tag>KB</tag>
+        <tag_text>KNB</tag_text>
+        <name>The Wiki</name>
+        <link>https://www.mediawiki.org/wiki/MediaWiki</link>
+        <image_name>mediawiki.png</image_name>
+        <powered_by>MediaWiki</powered_by>
+        <description>MediaWiki is a free and open-source wiki</description>
+    </item>
+    <item name = "router">
+        <tag>admin</tag>
+        <tag_text>ADM</tag_text>
+        <name>Cisco x3500</name>
+        <link>http://192.168.1.1/</link>
+        <image_name>router.png</image_name>
+        <powered_by>Original Firmware</powered_by>
+        <description>Just a Router in The Network</description>
+    </item>
+    <item name = "phpmyadmin">
+        <tag>admin</tag>
+        <tag_text>ADM</tag_text>
+        <name>phpMyAdmin</name>
+        <link>https://www.phpmyadmin.net/</link>
+        <image_name>phpmyadmin.png</image_name>
+        <powered_by>phpMyAdmin</powered_by>
+        <description>Administrate MySQL over the Web</description>
+    </item>
+    <item name = "avid">
+        <tag>SaM</tag>
+        <tag_text>MED</tag_text>
+        <name>AVid</name>
+        <link>https://github.com/WWBN/AVideo</link>
+        <image_name>avid.ico</image_name>
+        <powered_by>AVideo</powered_by>
+        <description>Create Your Own Broadcast Network With AVideo.</description>
+    </item>
+    <item name = "Bookstack">
+        <tag>KB</tag>
+        <tag_text>KNB</tag_text>
+        <name>Bookstack</name>
+        <link>https://www.bookstackapp.com/</link>
+        <image_name>bookstack.png</image_name>
+        <powered_by>Bookstack</powered_by>
+        <description>Simple and Free Wiki Software</description>
+    </item>
+    <item name = "Wordpress">
+        <tag>WaB</tag>
+        <tag_text>WEB</tag_text>
+        <name>Wordpress</name>
+        <link>https://wordpress.org/</link>
+        <image_name>wordpress.png</image_name>
+        <powered_by>Wordpress</powered_by>
+        <description>create a beautiful website, blog, or app.</description>
+    </item>
+    <item name = "veelst">
+        <tag>WaB</tag>
+        <tag_text>WEB</tag_text>
+        <name>Veelst's GH</name>
+        <link>https://github.com/ve3lst</link>
+        <image_name>VLS135.png</image_name>
+        <powered_by>GitHub</powered_by>
+        <description>Veelst's GitHub and stuff</description>
+    </item>
+    <item name = "openstreetmap">
+        <tag>KB</tag>
+        <tag_text>KNB</tag_text>
+        <name>OpenStreetMap</name>
+        <link>https://www.openstreetmap.org/</link>
+        <image_name>openstreetmap.png</image_name>
+        <powered_by>OpenStreetMap</powered_by>
+        <description>Maps from around the world!</description>
+    </item>
+    <item name = "lychee">
+        <tag>SaM</tag>
+        <tag_text>IMG</tag_text>
+        <name>Lychee</name>
+        <link>https://lycheeorg.github.io/</link>
+        <image_name>lychee.ico</image_name>
+        <powered_by>lychee</powered_by>
+        <description>grid and album based photo-management-system</description>
+    </item>
+    <item name = "YaCy">
+        <tag>SaI</tag>
+        <tag_text>SRC</tag_text>
+        <name>YaCy Search</name>
+        <link>https://tsearch.net/</link>
+        <image_name>YaCy.png</image_name>
+        <powered_by>YaCy</powered_by>
+        <description>Decentralized search engine server</description>
+    </item>
+    <item name = "webmin">
+        <tag>admin</tag>
+        <tag_text>RDT</tag_text>
+        <name>Webmin</name>
+        <link>https://www.webmin.com/</link>
+        <image_name>webmin.png</image_name>
+        <powered_by>Webmin</powered_by>
+        <description>web-based system configuration tool for Unix-like systems</description>
+    </item>
+    <item name = "mail">
+        <tag>SaM</tag>
+        <tag_text>MAL</tag_text>
+        <name>Mail</name>
+        <link>http://mail.net</link>
+        <image_name>rcm.svg</image_name>
+        <powered_by>RoundCubeMail</powered_by>
+        <description>Browser-based IMAP client</description>
+    </item>
+    <item name = "icecoder">
+        <tag>WaB</tag>
+        <tag_text>TXT</tag_text>
+        <name>ICEcoder</name>
+        <link>https://icecoder.net/</link>
+        <image_name>icecoder.png</image_name>
+        <powered_by>ICEcoder</powered_by>
+        <description>Code editor awesomeness ...in your browser</description>
+    </item>
+    <item name = "Jellyfin">
+        <tag>SaM</tag>
+        <tag_text>MEd</tag_text>
+        <name>Jellyfin</name>
+        <link>https://jellyfin.org/</link>
+        <image_name>jellyfin.png</image_name>
+        <powered_by>Emby</powered_by>
+        <description>Media server for audio, video, books,and photos</description>
+    </item>
+
+
+</site_items>
